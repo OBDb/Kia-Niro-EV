@@ -1,2 +1,9 @@
-{ "commands": []
+{ "diagnosticLevel": "03",
+  "commands": [
+{ "hdr": "744", "rax": "7AE", "cmd": {"22": "E003"}, "freq": 1,
+  "signals": [
+    {"id": "NIRO_HVBAT_VOLT", "path": "Battery", "fmt": {"bix": 104, "len": 16, "max": 1000, "div": 10, "unit": "volts"   }, "name": "HV battery voltage"},
+    {"id": "NIRO_HVBAT_SOC",  "path": "Battery", "fmt": {"bix": 120, "len": 8,  "max": 100,  "div": 2,  "unit": "percent" }, "name": "HV battery charge",  "suggestedMetric": "stateOfCharge"}
+  ]}
+]
 }
