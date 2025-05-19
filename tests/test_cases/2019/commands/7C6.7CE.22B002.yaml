@@ -11,13 +11,6 @@ test_cases:
     NIROEV_ODO_MI: 36908
 - response: |-
     7CE100F62B002D00000
-    7CE2100FFAB00000000
-    7CE22909D0000000000
-  expected_values:
-    NIROEV_ODO_KM: 0
-    NIROEV_ODO_MI: 37021
-- response: |-
-    7CE100F62B002D00000
     7CE2100FFAF00000000
     7CE2290880000000000
   expected_values:
@@ -30,3 +23,10 @@ test_cases:
   expected_values:
     NIROEV_ODO_KM: 0
     NIROEV_ODO_MI: 36948
+- response: |-
+    7CE100F62B002D00000
+    7CE2100FFB700000000
+    7CE2290AD0000000000
+  expected_values:
+    NIROEV_ODO_KM: 0
+    NIROEV_ODO_MI: 37037
