@@ -1,6 +1,4 @@
-command_id: 7E4.7EC.220102
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
+command_id: 7E4.7EC.220102|fc=1
 test_cases:
 - response: |-
     220102
