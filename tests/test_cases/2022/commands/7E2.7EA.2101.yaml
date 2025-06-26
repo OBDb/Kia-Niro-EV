@@ -1,154 +1,161 @@
 command_id: 7E2.7EA.2101
 test_cases:
-- response: "7EA 10 18 61 01 FF F8 00 00 \n7EA 21 09 28 59 47 06 39 03 \n7EA 22 00
+- expected_values:
+    NIROEV_VSS: 0
+  response: "7EA 10 18 61 01 FF F8 00 00 \n7EA 21 09 28 59 47 06 39 03 \n7EA 22 00
     00 00 00 2C 77 34 \n7EA 23 04 08 08 05 00 00 00 "
-  expected_values:
+- expected_values:
     NIROEV_VSS: 0
-- response: "7EA 10 18 61 01 FF F8 00 00 \n7EA 21 09 28 59 47 06 39 03 \n7EA 22 00
+  response: "7EA 10 18 61 01 FF F8 00 00 \n7EA 21 09 28 59 47 06 39 03 \n7EA 22 00
     00 00 00 4F 77 34 \n7EA 23 04 08 08 05 00 00 00 "
-  expected_values:
-    NIROEV_VSS: 0
-- response: "7EA 10 18 61 01 FF F8 00 00 \n7EA 21 09 28 5A D8 0B E3 05 \n7EA 22 D6
-    23 51 08 07 77 34 \n7EA 23 04 08 08 05 00 00 00 "
-  expected_values:
+- expected_values:
     NIROEV_VSS: 21.29
-- response: |-
+  response: "7EA 10 18 61 01 FF F8 00 00 \n7EA 21 09 28 5A D8 0B E3 05 \n7EA 22 D6
+    23 51 08 07 77 34 \n7EA 23 04 08 08 05 00 00 00 "
+- expected_values:
+    NIROEV_VSS: 0
+  response: |-
     7EA10186101FFF80000
     7EA210901591A06FD02
     7EA22000000003A6C34
     7EA2304202005000000
-  expected_values:
+- expected_values:
     NIROEV_VSS: 0
-- response: |-
+  response: |-
     7EA10186101FFF80000
     7EA2109015A47063B03
     7EA2200000000A87734
     7EA2304202005000000
-  expected_values:
-    NIROEV_VSS: 0
-- response: |-
+- expected_values:
+    NIROEV_VSS: -2.22
+  response: |-
     7EA10186101FFF80000
     7EA2109025929060903
     7EA22000022FF046E34
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: -2.22
-- response: |-
+- expected_values:
+    NIROEV_VSS: -3.27
+  response: |-
     7EA10186101FFF80000
     7EA2109045A1D06FF02
     7EA220000B9FEA37134
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: -3.27
-- response: |-
+- expected_values:
+    NIROEV_VSS: 3.19
+  response: |-
     7EA10186101FFF80000
     7EA2109085A4209A104
     7EA225A0E3F01747634
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: 3.19
-- response: |-
+- expected_values:
+    NIROEV_VSS: 9.84
+  response: |-
     7EA10186101FFF80000
     7EA2109085ABF09DA04
     7EA222413D8039D7234
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: 9.84
-- response: |-
+- expected_values:
+    NIROEV_VSS: 0
+  response: |-
     7EA10186101FFF80000
     7EA2109211024061603
     7EA2200000000BA7700
     7EA2307202005000000
-  expected_values:
+- expected_values:
     NIROEV_VSS: 0
-- response: |-
+  response: |-
     7EA10186101FFF80000
     7EA2109215924062003
     7EA22000000002F7534
     7EA2304202005000000
-  expected_values:
+- expected_values:
     NIROEV_VSS: 0
-- response: |-
+  response: |-
     7EA10186101FFF80000
     7EA2109215A24061D03
     7EA2200000000FF7634
     7EA2304202005000000
-  expected_values:
+- expected_values:
     NIROEV_VSS: 0
-- response: |-
+  response: |-
     7EA10186101FFF80000
     7EA2109215A27061B03
     7EA2200000000007734
     7EA2304202005000000
-  expected_values:
+- expected_values:
     NIROEV_VSS: 0
-- response: |-
+  response: |-
     7EA10186101FFF80000
     7EA2109218018060903
     7EA2200000000F56300
     7EA2300202005000000
-  expected_values:
+- expected_values:
     NIROEV_VSS: 0
-- response: |-
+  response: |-
     7EA10186101FFF80000
     7EA210921801D060703
     7EA22000000009A6000
     7EA2300202005000000
-  expected_values:
+- expected_values:
     NIROEV_VSS: 0
-- response: |-
+  response: |-
+    7EA10186101FFF80000
+    7EA2109218040063103
+    7EA2200000000DD6A00
+    7EA2300202005000000
+- expected_values:
+    NIROEV_VSS: -1.26
+  response: |-
     7EA10186101FFF80000
     7EA2109225B59064503
     7EA22000082FFE57634
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: -1.26
-- response: |-
-    7EA10186101FFF80000
-    7EA2109285940062F03
-    7EA2200006705AB7634
-    7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: 13.83
-- response: |-
+- expected_values:
+    NIROEV_VSS: 62.23
+  response: |-
     7EA10186101FFF80000
     7EA2109285A0B098D04
     7EA22FC0C4F18507334
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: 62.23
-- response: |-
+- expected_values:
+    NIROEV_VSS: 26.9
+  response: |-
     7EA10186101FFF80000
     7EA2109285A1D060903
     7EA220000820AEA7536
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: 26.9
-- response: |-
+- expected_values:
+    NIROEV_VSS: -0.01
+  response: |-
     7EA10186101FFF80000
     7EA2109285A27061103
     7EA220000FFFF347336
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: -0.01
-- response: |-
+- expected_values:
+    NIROEV_VSS: 30.14
+  response: |-
     7EA10186101FFF80000
     7EA2109285A7B13AB09
     7EA22FA64C60B3B7734
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: 30.14
-- response: |-
+- expected_values:
+    NIROEV_VSS: 74.08
+  response: |-
     7EA10186101FFF80000
     7EA2109285A90102208
     7EA22AE4BF01C766D34
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: 74.08
-- response: |-
+- expected_values:
+    NIROEV_VSS: 30.45
+  response: |-
+    7EA10186101FFF80000
+    7EA2109285AF113D809
+    7EA220068E50B937634
+    7EA2304080805000000
+- expected_values:
+    NIROEV_VSS: 64.47
+  response: |-
     7EA10186101FFF80000
     7EA2109285AF70FE607
     7EA2282462F19FF6F34
     7EA2304080805000000
-  expected_values:
-    NIROEV_VSS: 64.47

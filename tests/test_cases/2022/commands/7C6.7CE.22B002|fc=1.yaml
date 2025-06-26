@@ -1,77 +1,84 @@
 command_id: 7C6.7CE.22B002|fc=1
 test_cases:
-- response: |-
+- expected_values:
+    NIROEV_ODO_KM: 0
+    NIROEV_ODO_MI: 39517
+  response: |-
     22B002
     7CE100F62B002D00000
     7CE2100FFAF00000000
     7CE229A5D0000000000
-  expected_values:
+- expected_values:
     NIROEV_ODO_KM: 0
     NIROEV_ODO_MI: 39517
-- response: |-
+  response: |-
     22B002
     7CE100F62B002D00000
     7CE2100FFB000000000
     7CE229A5D0000000000
-  expected_values:
-    NIROEV_ODO_KM: 0
-    NIROEV_ODO_MI: 39517
-- response: "7CE 10 0F 62 B0 02 D0 00 00 \n7CE 21 00 FF B6 00 00 00 00 \n7CE 22 9B
-    09 00 00 00 00 00 "
-  expected_values:
+- expected_values:
     NIROEV_ODO_KM: 0
     NIROEV_ODO_MI: 39689
-- response: "7CE 10 0F 62 B0 02 D0 00 00 \n7CE 21 00 FF B7 00 00 00 00 \n7CE 22 9B
+  response: "7CE 10 0F 62 B0 02 D0 00 00 \n7CE 21 00 FF B6 00 00 00 00 \n7CE 22 9B
     09 00 00 00 00 00 "
-  expected_values:
+- expected_values:
     NIROEV_ODO_KM: 0
     NIROEV_ODO_MI: 39689
-- response: |-
+  response: "7CE 10 0F 62 B0 02 D0 00 00 \n7CE 21 00 FF B7 00 00 00 00 \n7CE 22 9B
+    09 00 00 00 00 00 "
+- expected_values:
+    NIROEV_ODO_KM: 0
+    NIROEV_ODO_MI: 74526
+  response: |-
     7CE100F62B002D00000
     7CE2100FFA400000001
     7CE22231E0000000000
-  expected_values:
+- expected_values:
     NIROEV_ODO_KM: 0
-    NIROEV_ODO_MI: 74526
-- response: |-
+    NIROEV_ODO_MI: 74495
+  response: |-
     7CE100F62B002D00000
     7CE2100FFA700000001
     7CE2222FF0000000000
-  expected_values:
+- expected_values:
     NIROEV_ODO_KM: 0
-    NIROEV_ODO_MI: 74495
-- response: |-
+    NIROEV_ODO_MI: 74496
+  response: |-
     7CE100F62B002D00000
     7CE2100FFA700000001
     7CE2223000000000000
-  expected_values:
+- expected_values:
     NIROEV_ODO_KM: 0
-    NIROEV_ODO_MI: 74496
-- response: |-
+    NIROEV_ODO_MI: 39817
+  response: |-
     7CE100F62B002D00000
     7CE2100FFA800000000
     7CE229B890000000000
-  expected_values:
+- expected_values:
     NIROEV_ODO_KM: 0
-    NIROEV_ODO_MI: 39817
-- response: |-
+    NIROEV_ODO_MI: 39517
+  response: |-
     7CE100F62B002D00000
     7CE2100FFAF00000000
     7CE229A5D0000000000
-  expected_values:
+- expected_values:
     NIROEV_ODO_KM: 0
     NIROEV_ODO_MI: 39517
-- response: |-
+  response: |-
     7CE100F62B002D00000
     7CE2100FFB000000000
     7CE229A5D0000000000
-  expected_values:
+- expected_values:
     NIROEV_ODO_KM: 0
-    NIROEV_ODO_MI: 39517
-- response: |-
+    NIROEV_ODO_MI: 39959
+  response: |-
+    7CE100F62B002D00000
+    7CE2100FFB200000000
+    7CE229C170000000000
+- expected_values:
+    NIROEV_ODO_KM: 0
+    NIROEV_ODO_MI: 74209
+  response: |-
     7CE100F62B002D00000
     7CE2100FFB400000001
     7CE2221E10000000000
-  expected_values:
-    NIROEV_ODO_KM: 0
-    NIROEV_ODO_MI: 74209
