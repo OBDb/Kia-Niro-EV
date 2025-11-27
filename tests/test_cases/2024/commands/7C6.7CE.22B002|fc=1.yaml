@@ -1,0 +1,9 @@
+command_id: 7C6.7CE.22B002|fc=1
+test_cases:
+- expected_values:
+    NIROEV_ODO_KM: 0
+    NIROEV_ODO_MI: 23353
+  response: |-
+    7CE100F62B002D00000
+    7CE2100FFB600000000
+    7CE225B39AAAAAAAAAA
