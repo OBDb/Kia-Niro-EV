@@ -86,7 +86,7 @@
     {"id": "NIROEV_HVBAT_CMU031_VOLT", "path": "Battery.Modules.031", "fmt": {"bix": 272, "len": 8, "max": 4.2, "min": 2.8, "div": 50, "unit": "volts" }, "name": "HV battery module 031 voltage"},
     {"id": "NIROEV_HVBAT_CMU032_VOLT", "path": "Battery.Modules.032", "fmt": {"bix": 280, "len": 8, "max": 4.2, "min": 2.8, "div": 50, "unit": "volts" }, "name": "HV battery module 032 voltage"}
   ]},
-{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0103"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0103"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2023], "from": 2025 },
   "signals": [
     {"id": "NIROEV_HVBAT_CMU033_VOLT", "path": "Battery.Modules.033", "fmt": {"bix": 32,  "len": 8, "max": 4.2, "min": 2.8, "div": 50, "unit": "volts" }, "name": "HV battery module 033 voltage"},
     {"id": "NIROEV_HVBAT_CMU034_VOLT", "path": "Battery.Modules.034", "fmt": {"bix": 40,  "len": 8, "max": 4.2, "min": 2.8, "div": 50, "unit": "volts" }, "name": "HV battery module 034 voltage"},
