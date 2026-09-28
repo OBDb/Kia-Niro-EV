@@ -1,0 +1,12 @@
+command_id: 770.778.22BC04
+test_cases:
+- expected_values:
+    NIROEV_BELT_RL: 0
+    NIROEV_BELT_RM: 1
+    NIROEV_BELT_RR: 0
+    NIROEV_GEAR_R: 0
+    NIROEV_LOCK_FL: 1
+    NIROEV_LOCK_FR: 1
+  response: |-
+    778100B62BC04303F70
+    77821200C000800AAAA

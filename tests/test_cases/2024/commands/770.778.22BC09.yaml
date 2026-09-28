@@ -1,0 +1,8 @@
+command_id: 770.778.22BC09
+test_cases:
+- expected_values:
+    NIROEV_HL_HIGH: 0
+    NIROEV_HL_LOW: 0
+  response: |-
+    778100B62BC09301F03
+    77821CF00080000AAAA
