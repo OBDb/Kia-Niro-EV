@@ -1,0 +1,12 @@
+command_id: 770.778.22BC03
+test_cases:
+- expected_values:
+    NIROEV_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDEE20
+    77821630A600000AAAA
+- expected_values:
+    NIROEV_LOW_BEAMS: 0
+  response: |-
+    778100B62BC03FDEE20
+    77821630A620000AAAA
