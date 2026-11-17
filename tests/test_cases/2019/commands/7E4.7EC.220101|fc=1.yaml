@@ -33,7 +33,6 @@ test_cases:
     NIROEV_ISO_R: 1000
     NIROEV_RPM: 0
     NIROEV_RPM_2: 0
-    NIROEV_VPWR: 0
   response: |-
     7EC103E620101FFF7E7
     7EC21FF000000000000
